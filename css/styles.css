@@ -25,3 +25,18 @@ a:hover {
   color: #11f811;
   text-transform: uppercase;
 }
+
+.card-1 {
+  float: left;
+  display: inline-block;
+}
+
+.card-2 {
+  float: right;
+  display: inline-block;
+}
+
+h3 {
+  margin-top: 30px;
+  clear: both;
+}
