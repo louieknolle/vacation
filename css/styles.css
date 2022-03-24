@@ -26,17 +26,18 @@ a:hover {
   text-transform: uppercase;
 }
 
-.card-1 {
-  float: left;
-  display: inline-block;
-}
 
-.card-2 {
-  float: right;
-  display: inline-block;
-}
 
 h3 {
   margin-top: 30px;
   clear: both;
+  color: #11f811;
+}
+
+.reasons {
+  background-color: green;
+}
+
+.bg-list {
+  background-color: ;
 }

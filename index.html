@@ -1,60 +1,66 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  <head>
+    <title>Vacation Website</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1>Who Wants to go to Ireland??</h1>
+        <p>Visiting the Emerald Isle, Will Always Leave a Smile</p>
+      </div>
 
-<head>
-  <title>My First Section at Epicodus</title>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <div class="container">
-    <div class="jumbotron text-center">
-      <h1>Who Wants to go to Ireland??</h1>
-      <p>Visiting the Emerald Isle, Will Always Leave a Smile</p>
-    </div>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Castle Tours</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Hill-walking</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pubs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+            >Flights</a
+          >
+        </li>
+      </ul>
 
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Castle Tours</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Hill-walking</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pubs</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Flights</a>
-      </li>
-    </ul>
+      <div class="row">
+        <div class="card card-1 col-sm-6" style="width: 50%">
+          <img src=".vscode/causeway.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <blockquote class="blockquote card-body">
+              <p>"This natural phenomenon is a true marvel."</p>
+              <footer class="blockquote-footer">Terry Q. (' visitor)</footer>
+            </blockquote>
+          </div>
+        </div>
 
-    <div class="card card-1" style="width: 50%;">
-      <img src=".vscode/causeway.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <blockquote class="blockquote card-body">
-          <p>"This natural phenomenon is a true marvel."</p>
-          <footer class="blockquote-footer">Terry Q. (' visitor)</footer>
-        </blockquote>
+        <div class="card card-2 col-sm-6" style="width: 50%">
+          <img src=".vscode/hills.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <blockquote class="blockquote card-body">
+              <p>"You could sense the magic here!"</p>
+              <footer class="blockquote-footer">
+                Margery O. ('09 visitor)
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+      <div class="reasons">
+        <h3>Reasons to visit:</h3>
+        <ul class="bg-list">
+          <li class="bg-success">Unlike anywhere else on Earth</li>
+          <li class="bg-primary">Home of your ancestors</li>
+          <li class="bg-info">Probably really great beer</li>
+        </ul>
       </div>
     </div>
-
-    <div class="card card-2" style="width: 50%;">
-      <img src=".vscode/hills.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <blockquote class="blockquote card-body">
-          <p>"You could sense the magic here!"</p>
-          <footer class="blockquote-footer">Margery O. ('09 visitor)</footer>
-        </blockquote>
-      </div>
-    </div>
-
-    <h3>Reasons to visit:</h3>
-    <ul>
-      <li class="bg-success">Unlike anywhere else on Earth</li>
-      <li class="bg-primary">Home of your ancestors</li>
-      <li class="bg-info">Probably really great beer</li>
-    </ul>
-
-  </div>
-</body>
+  </body>
 </html>
