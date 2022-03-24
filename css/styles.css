@@ -1,0 +1,27 @@
+body {
+  background-color: #d8d8b2;
+}
+
+.jumbotron {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: green;
+  color: #11f811;
+  margin-bottom: 0;
+}
+
+.nav {
+  background-color: orange;
+  border-radius: 5px;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: green;
+  color: #11f811;
+  text-transform: uppercase;
+}
